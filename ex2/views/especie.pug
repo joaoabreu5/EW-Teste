@@ -3,8 +3,8 @@ extends layout
 block content
   .w3-card-4
     header.w3-container.w3-teal
-      h1 Página da Espécie #{especie.Espécie}
-      h2 Nome Científico #{especie['Nome Científico']}
+      h1 Página da Espécie '#{especie[0].Espécie}'
+      h2 Nome Científico: '#{especie[0]['Nome Científico']}'
     .w3-container
       table.w3-table-all
         tr
