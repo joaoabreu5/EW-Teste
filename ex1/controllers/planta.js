@@ -81,7 +81,7 @@ module.exports.addPlanta = p => {
 }
 
 module.exports.deletePlanta = id => {
-    return Caminho
+    return Planta
             .deleteOne({_id:id})
             .then(resposta => {
                 return resposta
