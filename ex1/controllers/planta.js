@@ -49,7 +49,7 @@ module.exports.getPlantasImplantacao = implantacao => {
 module.exports.getFreguesias = () => {
     return Planta
             .distinct('Freguesia')
-            .sort({'Freguesia': 1})
+            .sort()
             .then(resposta => {
                 return resposta
             })
@@ -61,7 +61,7 @@ module.exports.getFreguesias = () => {
 module.exports.getEspecies = () => {
     return Planta
             .distinct('Espécie')
-            .sort({'Espécie': 1})
+            .sort()
             .then(resposta => {
                 return resposta
             })
