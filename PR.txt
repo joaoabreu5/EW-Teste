@@ -1,0 +1,13 @@
+1. Importar o dataset para MongoDB:
+    mongoimport -d plantas -c plantas --file plantas.json --jsonArray
+
+2. Colocar em execução a API de dados:
+    cd ex1
+    npm i --save
+    npm i mongoose --save
+    npm start
+
+3. Colocar em execução a Interface:
+    cd ex1
+    npm i --save
+    npm start
