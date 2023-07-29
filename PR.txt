@@ -2,12 +2,11 @@
     mongoimport -d plantas -c plantas --file plantas.json --jsonArray
 
 2. Colocar em execução a API de dados:
-    cd ex1
-    npm i --save
-    npm i mongoose --save
+    cd Ex1
+    npm i
     npm start
 
 3. Colocar em execução a Interface:
-    cd ex1
-    npm i --save
+    cd Ex2
+    npm i
     npm start
